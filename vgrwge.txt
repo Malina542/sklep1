@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+        }
+        .product {
+            border-bottom: 1px solid #444;
+            padding: 20px;
+        }
+        .product:last-child {
+            border-bottom: none;
+        }
+        .product h2 {
+            margin: 0;
+        }
+        .product p {
+            color: #ccc;
+        }
+        .buy-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .buy-button:hover {
+            background-color: #ccc;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #111;
+        }
+        .discord-link {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>Witaj w naszym sklepie</header>
+
+<div class="container">
+    <div class="product">
+        <h2>Produkt 1</h2>
+        <p>Opis pierwszego produktu. Cena: 99 zł</p>
+        <a href="#" class="buy-button">Kup teraz</a>
+    </div>
+    
+    <div class="product">
+        <h2>Produkt 2</h2>
+        <p>Opis drugiego produktu. Cena: 149 zł</p>
+        <a href="#" class="buy-button">Kup teraz</a>
+    </div>
+
+    <div class="product">
+        <h2>Produkt 3</h2>
+        <p>Opis trzeciego produktu. Cena: 199 zł</p>
+        <a href="#" class="buy-button">Kup teraz</a>
+    </div>
+</div>
+
+<footer>
+    <p>Dołącz do naszej społeczności: 
+        <a href="https://discord.gg/buReqEAb" class="discord-link" target="_blank">Discord</a>
+    </p>
+</footer>
+
+</body>
+</html>
